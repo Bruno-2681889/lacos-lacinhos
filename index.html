@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, inictial-scale=1.0" />
+        <title>Laços&Lacinhos- Seja Bem vindo!</title>
+
+        <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="./css/fontawesome.css"/>
+        <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+        <link rel="stylesheet" href="./css/animate.css"/>
+        <link rel="stylesheet" href="./css/main.css"/>
+        <link rel="stylesheet" href="./css/responsivo.css"/>
+        
+        
+
+    </head>
+
+    <body>
+
+        <div class="container-mensagens" id="container-mensagens">
+
+        </div>
+
+        <a class="botao-carrinho hidden animated bounceInUp" onclick="cardapio.metodos.abrirCarrinho(true)">
+            <div class="badge-total-carrinho">0</div>
+            <i class="fa fa-shopping-bag"></i>
+        </a>
+
+        <section class="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg pl-0 pr-0">
+                    <a class="navbar-brand wow flip" href="#">
+                        <img src="./img/logo.png" width="200" class="img-logo"/>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+                        <span class = "navbar-toggler-icon">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse wow fadeIn" id="navbarNavDropdown">
+                        <ul class="navbar-nav ml-auto mr-auto">
+                            <li class="nav-item">
+                                <a href="#reservas" class="nav-link"><b>Reservas</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#servicos" class="nav-link"><b>Serviços</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#produtos" class="nav-link"><b>Produtos</b></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#depoimentos" class="nav-link"><b>Depoimentos</b></a>
+                            </li>
+                        </ul>
+                        <a class="btn btn-white btn-icon wow jackInTheBox" onclick="cardapio.metodos.abrirCarrinho(true)">
+                            Meu carrinho <span class="icon">
+                                <div class="container-total-carrinho badge-total-carrinho hidden">0</div>
+                                <i class="fa fa-shopping-bag"></i>
+                            </span>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </section>
+
+        <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-md-6 col-sm-12 col-one">
+                        <div class="d-flex text-banner">
+                            <h1 class="wow fadeInLeft"><b>Escolha seu acessório <b class="color-primary">Favorito!</b></b></h1>
+                            <p class="wow fadeInLeft delay-02s">
+                                Confecção de laços, tiaras, faixas de bebê. Produtos Personalizados feito com muito amor e carinho.
+                            </p>
+                            <div class="wow fadeIn delay-05s">
+                                <a href="#produtos" class="btn btn-pink mt-4 mr-3">
+                                Ver Produtos  
+                                </a>
+                                <a href="#" class="btn btn-white btn-icon-left mt-4" id="btnLigar">
+                                    <span class="icon-left">
+                                        <i class="fa fa-phone"></i>
+                                    </span>
+                                    (11) 99375-8533
+                                </a>
+                            </div>
+                        </div>
+                        <a href="https://www.instagram.com/lacos_e_lacinhos_da_gabi?igsh=MXcxNTdnazR3bHBscA==" target="_blank" class="btn btn-sm btn-white btn-social mt-4 mr-3 wow fadeIn delay-07s">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="btn btn-sm btn-white btn-social mt-4 mr-3 hidden wow fadeIn delay-07s">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a class="btn btn-sm btn-white btn-social mt-4 wow fadeIn delay-07s" href="#" id="btnChamaWhatsApp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+
+                    <div class="col-6 no-mobile">
+                        <div class="card-banner wow fadeIn delay-02s"></div>
+                        <div class="d-flex img-banner wow fadeIn delay-05s">
+                            <img src="./img/laco.png">
+                        </div>
+                        <div class="card card-case wow fadeInRight delay-07s">
+                            "Seus laços e tiaras são simplesmente incríveis! 
+                            <br>A delicadeza e a beleza de cada peça são de tirar o fôlego.<br>
+                            <spam class="card-case-name">
+                                <b>Beatriz Silva</b>
+
+                            </spam>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="servicos" id="servicos">
+
+            <div class="backgroud-servicos"></div>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 col-one text-center m-5 wow fadeIn delay-02s" >
+                        <span class="hint-title"><b>Serviços</b></span>
+                        <h1 class="title">
+                            <b>Como são nossos serviços</b>
+                        </h1>
+                    </div>
+
+                    <div class="col-12 col-lg-4 col-md-4 col-sm-12 col-one mb-5 wow fadeInUp delay-02s" >
+                        <div class="card-icon text-center">
+                            <img src="./img/icone-pedido.png" width="180"/>
+                        </div>
+                        <div class="card-text text-center mt-3">
+                            <p><b>Fácil de pedir</b></p>
+                            <Span>
+                                Você só precisa de alguns passos para ficar ainda mais bonita.
+                            </Span>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 col-md-4 col-sm-12 col-one mb-5 wow fadeInUp delay-02s" >
+                        <div class="card-icon text-center">
+                            <img src="./img/icone-delivery.png" width="180"/>
+                        </div>
+                        <div class="card-text text-center mt-3">
+                            <p><b>Entrega rápida</b></p>
+                            <Span>
+                                Nossa entrega é sempre pontual, rápida e segura.
+                            </Span>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 col-md-4 col-sm-12 col-one mb-5 wow fadeInUp delay-02s" >
+                        <div class="card-icon text-center">
+                            <img src="./img/icone-qualidade.png" width="180"/>
+                        </div>
+                        <div class="card-text text-center mt-3">
+                            <p><b>Melhor qualidade</b></p>
+                            <Span>
+                                Não só a rapidez na entrega, a qualidade tambem é nosso forte.
+                            </Span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="produtos" id="produtos">
+
+            <div class="backgroud-produtos"></div>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 col-one text-center m-5 wow fadeIn delay-02s">
+                        <span class="hint-title"><b>Produtos</b></span>
+                        <h1 class="title">
+                            <b>Conheça nossas coleções.</b>
+                        </h1>
+                    </div>
+                    
+                    <div class="col-12 col-one container-menu wow fadeInUp delay-02s">
+                        <a id="menu-chevron" class="btn btn-white btn-sm mr-3 active" onclick="cardapio.metodos.obterItensCardapio('chevron')">
+                            <i class="fa-regular fa-gem"></i>&nbsp; Chevron
+                        </a>
+                        <a id="menu-escolar" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('escolar')">
+                            <i class="fa-regular fa-gem"></i>&nbsp; Escolar
+                        </a>
+                        <a id="menu-neon" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('neon')">
+                            <i class="fa-regular fa-gem"></i>&nbsp; Neon
+                        </a>
+                        <a id="menu-invertido" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('invertido')">
+                            <i class="fa-regular fa-gem"></i>&nbsp; Amora Invertido
+                        </a>
+                        <a id="menu-boutique" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('boutique')">
+                            <i class="fa-regular fa-gem"></i>&nbsp; Boutique
+                        </a>
+                        <a id="menu-candy" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('candy')">
+                            <i class="fa-regular fa-gem"></i>&nbsp; Candy Colors
+                        </a>
+                        <a id="menu-jardim" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('jardim')">
+                            <i class="fa-regular fa-gem"></i>&nbsp; Jardim Encantado
+                        </a>
+                    </div>
+
+                    <div class="col-12 col-one wow fadeInUp">
+                        <div class="row" id="itensProduto">
+
+                        
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-one text-center wow fadeIn delay-07s">
+                        <a id="btnVermais" class="btn btn-white btn-sm" onclick="cardapio.metodos.vermais()">
+                            Ver mais
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="depoimentos" id="depoimentos">
+
+            <div class="backgroud-depoimentos"></div>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-5 no-mobile text-center">
+                        <div class="card-depoimentos wow fadeIn"></div>
+                        <div class="d-flex img-banner wow fadeInLeft delay-02s">
+                            <img src="./img/teste.png">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-7 col-md-7 col-sm-12 col-one wow fadeIn">
+                        <span class="hint-title wow fadeIn"><b>Depoimentos</b></span>
+                        <h1 class="title wow fadeIn">
+                            <b>O que dizem sobre nós.</b>
+                        </h1>
+                        <div class="mb-5">
+
+                            <div class="depoimento animated fadeIn" id="depoimento-1">
+                                <div class="conteiner-dados-depoimento">
+                                    <div class="imagem-depoimento"></div>
+                                    <div>
+                                        <p class="nome-depoimento"><b>Diego Pereira</b></p>
+                                        <p class="nota-depoimento">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half-alt"></i>&nbsp; <span>4.5</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="texto-depoimento">
+                                    <i class="fas fa-quote-left"></i>
+                                    <span>
+                                        Muito bom, recomendo demais! Laços muito bem feitos pela Gabi,
+                                        alem de muito criativa e atenciosa.
+                                    </span>
+                                    <i class="fas fa-quote-right"></i>
+                                </p>
+                            </div>
+
+                            <div class="depoimento hidden animated fadeIn" id="depoimento-2">
+                                <div class="conteiner-dados-depoimento">
+                                    <div class="imagem-depoimento"></div>
+                                    <div>
+                                        <p class="nome-depoimento"><b>Ana Beatriz</b></p>
+                                        <p class="nota-depoimento">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>&nbsp; <span>5.0</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="texto-depoimento">
+                                    <i class="fas fa-quote-left"></i>
+                                    <span>
+                                        Um mais lindo que o outro! Design, cores, modelos...
+                                        tão lindo que tenho todos rs.
+                                    </span>
+                                    <i class="fas fa-quote-right"></i>
+                                </p>
+                            </div>
+
+                            <div class="depoimento hidden animated fadeIn" id="depoimento-3">
+                                <div class="conteiner-dados-depoimento">
+                                    <div class="imagem-depoimento"></div>
+                                    <div>
+                                        <p class="nome-depoimento"><b>João Guilherme</b></p>
+                                        <p class="nota-depoimento">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>&nbsp; <span>4.0</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <p class="texto-depoimento">
+                                    <i class="fas fa-quote-left"></i>
+                                    <span>
+                                        os produtos estavam impecaveis e a rapidez me surpreendeu!
+                                        Dica: faça seus pedidos para ter uma experiencia incrivel.
+                                    </span>
+                                    <i class="fas fa-quote-right"></i>
+                                </p>
+                            </div>
+
+                        </div>
+                        <a id="btnDepoimento-1" class="btn btn-sm btn-white btn-social  mr-3" onclick="cardapio.metodos.abrirDepoimento(1)">1</a>
+                        <a id="btnDepoimento-2" class="btn btn-sm btn-white btn-social mr-3" onclick="cardapio.metodos.abrirDepoimento(2)" >2</a>
+                        <a id="btnDepoimento-3" class="btn btn-sm btn-white btn-social" onclick="cardapio.metodos.abrirDepoimento(3)">3</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reservas" id="reservas">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-one">
+
+                        <div class="card-secundary wow fadeInUp">
+
+                            <div class="row">
+
+                                <div class="col-12 col-lg-7 col-md-7 col-sm-12">
+                                    <span class="hint-title"><b>Reserva</b></span>
+                                    <h1 class="title">
+                                        <b>Quer reservar um horário?</b>
+                                    </h1>
+                                    <p class="pr-5">
+                                        Mande uma mensagem clicando no botão abaixo
+                                        <br>
+                                        Reserve sua data e horário de forma simples e rápida.
+                                    </p>
+                                    <a class="btn btn-pink mt-4" href="#" id="btnReserva" target="_blank">
+                                        Fazer reserva
+                                    </a>
+                                </div>
+
+                                <div class="col-5 no-mobile">
+                                    <div class="card-reserva"></div>
+                                    <div class="d-flex img-banner">
+                                        <img src="./img/icone-reserva.svg">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 col-lg-3 col-md-3 col-sm-12 col-one container-logo-footer wow fadeIn">
+                        <img class="logo-footer" src="./img/logo.png" />
+                    </div>
+                    <div class="col-12 col-lg-6 col-md-6 col-sm-12 col-one container-texto-footer wow fadeIn">
+                        <p class="mb-0">
+                            <b>Produtos on-line</b> &copy; Todos os direitos reservados
+                        </p>
+                    </div>
+                    <div class="col-12 col-lg-3 col-md-3 col-sm-12 col-one conteiner-redes-footer">
+                        <a href="https://www.instagram.com/lacos_e_lacinhos_da_gabi?igsh=MXcxNTdnazR3bHBscA==" target="_blank" class="btn btn-sm btn-white btn-social mr-3 animated fadeIn" >
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="btn btn-sm btn-white btn-social mr-3 hidden animated fadeIn">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a class="btn btn-sm btn-white btn-social animated fadeIn" href="#" id="btnChamaWhatsApp3" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="modal-full hidden animated fadeIn" id="modalCarrinho">
+
+            <div class="m-header">
+                <div class="container">
+                    <a class="btn btn-white btn-sm float-right" onclick="cardapio.metodos.abrirCarrinho(false)">
+                        Fechar
+                    </a>
+
+                    <div class="etapas">
+                        <div class="etapa etapa1 active">1</div>
+                        <div class="etapa etapa2 active">2</div>
+                        <div class="etapa etapa3 active">3</div>
+                    </div>
+                    <p class="title-carrinho mt-4">
+                        <b id="lblTituloEtapa">Seu Carrinho:</b>
+                    </p>
+                </div>
+            </div>
+
+            <div class="m-body">
+                <div class="container">
+
+                    <div id="itensCarrinho" class="row mr-0 ml-0 hidden animated fadeIn">
+
+                    </div>
+
+                    <div id="localEntrega" class="row mr-0 ml-0 hidden animated fadeIn">
+                        
+                        <div class="col-12 col-lg-4 col-md-4 col-sm-12 ">
+                            <div class="form-group container-cep">
+                                <label><b>CEP:</b></label>
+                                <input id="txtCEP" type="text" class="form-control"/>
+                                <a class="btn btn-pink btn-sm" onclick="cardapio.metodos.buscarCep()">
+                                    <i class="fa fa-search"></i>
+                                
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-8 no-mobile">
+                        </div>
+
+                        <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label><b>Endereço:</b></label>
+                                <input id="txtEndereco" type="text" class="form-control"/>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                            <div class="form-group">
+                                <label><b>Bairro:</b></label>
+                                <input id="txtBairro" type="text" class="form-control"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-2 col-md-2 col-sm-12">
+                            <div class="form-group">
+                                <label><b>Numero:</b></label>
+                                <input id="txtNumero" type="text" class="form-control"/>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <label><b>Cidade:</b></label>
+                                <input id="txtCidade" type="text" class="form-control"/>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                            <div class="form-group">
+                                <label><b>Complemento:</b></label>
+                                <input id="txtComplemento" type="text" class="form-control"/>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-2 col-md-2 col-sm-12">
+                            <div class="form-group">
+                                <label><b>UF:</b></label>
+                                <select id="ddlUf" class="form-control">
+                                    <option value="-1">...</option>
+                                    <option value="AC">AC</option>
+                                    <option value="AL">AL</option>
+                                    <option value="AP">AP</option>
+                                    <option value="AM">AM</option>
+                                    <option value="BA">BA</option>
+                                    <option value="CE">CE</option>
+                                    <option value="DF">DF</option>
+                                    <option value="ES">ES</option>
+                                    <option value="GO">GO</option>
+                                    <option value="MA">MA</option>
+                                    <option value="MT">MT</option>
+                                    <option value="MS">MS</option>
+                                    <option value="MG">MG</option>
+                                    <option value="PA">PA</option>
+                                    <option value="PB">PB</option>
+                                    <option value="PR">PR</option>
+                                    <option value="PE">PE</option>
+                                    <option value="PI">PI</option>
+                                    <option value="RJ">RJ</option>
+                                    <option value="RN">RN</option>
+                                    <option value="RS">RS</option>
+                                    <option value="RO">RO</option>
+                                    <option value="RR">RR</option>
+                                    <option value="SC">SC</option>
+                                    <option value="SP">SP</option>
+                                    <option value="SE">SE</option>
+                                    <option value="TO">TO</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="resumoCarrinho" class="row mr-0 ml-0 hidden animated fadeIn">
+                        <div class="col-12">
+                            <p class="title-carrinho mt-4">
+                                <b>Itens do pedido</b>
+                            </p>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="row" id="listaItensResumo">
+
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <p class="title-carrinho mt-4">
+                                <b>Local de entrega:</b>
+                            </p>
+                        </div>
+
+                        <div class="col-12 item-carrinho resumo">
+
+                            <div class="img-map">
+                                <i class="fas fa-map-marked-alt"></i>
+                            </div>
+
+                            <div class="dados-produto">
+                                <p class="texto-endereco">
+                                    <b id="resumoEndereco"></b></p>
+                                <p class="cidade-endereco" id="cidadeEndereco"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>           
+            </div>
+
+            <div class="m-footer">
+                <div class="container">
+                    <div class="container-total text-right mb-4">
+                        <p class="mb-0">
+                            <span>Subtotal</span>
+                            <span id="lblSubtotal">R$ 0,00</span>
+                        </p>
+                        <p class="mb-0 texto-entrega">
+                            <span><i class="fas fa-motorcycle"></i> Entrega</span>
+                            <span id="lblvalorEntrega">+R$ 0,00</span>
+                        </p>
+                        <p class="mb-0 texto-total">
+                            <span><b>Total:</b></span>
+                            <span class="valor-total"><b id="lblvalorTotal">R$ 0,00</b></span>
+                        </p>
+                    </div>
+                    <a onclick="cardapio.metodos.carregarEndereço()" class="btn btn-pink float-right" id="btnEtapaPedido">
+                        Continuar
+                    </a>
+                    <a onclick="cardapio.metodos.resumoPedido()" class="btn btn-pink float-right hidden" id="btnEtapaEndereco">
+                        Revisar Pedido
+                    </a>
+                    <a href="#" class="btn btn-pink float-right hidden" id="btnEtapaResumo" target="_blank">
+                        Enviar Pedido
+                    </a>
+                    <a onclick="cardapio.metodos.voltarEtapa()" class="btn btn-white float-right mr-3 hidden" id="btnVoltar">
+                        voltar
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="./js/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="./js/modernizr-3.5.0.min.js"></script>
+        <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./js/popper.min.js"></script>
+        <script type="text/javascript" src="./js/dados.js"></script>
+        <script type="text/javascript" src="./js/wow.min.js"></script>
+        <script type="text/javascript" src="./js/app.js"></script>
+
+        <script>new WOW().init();</script>
+
+    </body>
+
+</html>
