@@ -60,4 +60,4 @@ Se você deseja contribuir para o aprimoramento deste projeto, fique à vontade 
 ## Contato
 
 - **Email:** bls.bruno.s@gmail.com
-- **WhatsApp:** [Clique aqui para nos contatar pelo WhatsApp](https://api.whatsapp.com/send?phone=5511957780014e)
+- **WhatsApp:** [Clique aqui para nos contatar pelo WhatsApp](https://api.whatsapp.com/send?phone=5511957780014)
