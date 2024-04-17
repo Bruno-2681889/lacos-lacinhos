@@ -1,4 +1,5 @@
-# Laços&Lacinhos - - - ![image](https://github.com/Bruno-2681889/lacos-lacinhos/assets/110260216/4e15db91-2d30-4048-a210-3195fb497855)
+![image](https://github.com/Bruno-2681889/lacos-lacinhos/assets/110260216/4e15db91-2d30-4048-a210-3195fb497855)  
+# Laços&Lacinhos
 
 
 Objetivo do Projeto **Laços&Lacinhos**!
@@ -61,3 +62,38 @@ Se você deseja contribuir para o aprimoramento deste projeto, fique à vontade 
 
 - **Email:** bls.bruno.s@gmail.com
 - **WhatsApp:** [Clique aqui para nos contatar pelo WhatsApp](https://api.whatsapp.com/send?phone=5511957780014)
+
+## Resultado final
+
+- Pagina principal
+  
+![image](https://github.com/Bruno-2681889/lacos-lacinhos/assets/110260216/f4c1b5ae-b96e-4cf8-a55a-1e75211e3fba)
+
+- Lista dos Produtos
+  
+![image](https://github.com/Bruno-2681889/lacos-lacinhos/assets/110260216/379f2f28-06bb-49f7-a4fc-97f316328e9b)
+
+-Depoimentos
+
+![image](https://github.com/Bruno-2681889/lacos-lacinhos/assets/110260216/205f6263-bf05-4045-8d60-961edbb5bc5d)
+
+-Reservas e rodape
+
+![image](https://github.com/Bruno-2681889/lacos-lacinhos/assets/110260216/65edd22e-4f00-4a5b-8df8-e0a820869a79)
+
+- Pagina Carrinho
+
+![image](https://github.com/Bruno-2681889/lacos-lacinhos/assets/110260216/86bb3f1a-b790-49ad-b3fa-0d322f0c3064)
+
+-Pagina endereço
+
+![image](https://github.com/Bruno-2681889/lacos-lacinhos/assets/110260216/9aa66cbf-1858-4073-8d69-07004e67b9f7)
+
+- Pagina final
+
+![image](https://github.com/Bruno-2681889/lacos-lacinhos/assets/110260216/634e10c9-1679-48ac-8366-1d0231248656)
+
+
+
+
+
