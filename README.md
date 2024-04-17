@@ -11,7 +11,8 @@ site criado para projeto em alavancar vendas iniciantes para uma loja online de 
 - **Tecnologias Utilizadas:** HTML5, CSS3, JavaScript
 - **Framework Frontend:** Bootstrap
 - **Integração com WhatsApp:** Utilizamos link direto do WhatsApp para oferecer uma experiência de compra personalizada enviando pedidos diretamente para o fornecedor.
-
+- **Sistema responsivo para desktop e mobile
+  
 ## Funcionalidades Principais
 
 1. **Catálogo de Laços e Tiaras:**
